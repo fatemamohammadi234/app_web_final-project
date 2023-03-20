@@ -1,0 +1,356 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    background: rgb(33, 33, 33);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: fixed;
+    top: 0px;
+    width: 96%;
+}
+
+.home {
+    width: 100%;
+}
+
+h3 {
+    color: white;
+    display: inline;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    color: azure;
+    text-decoration: none;
+    margin-left: 40px;
+    font-family:  sans-serif;
+}
+
+nav .active {
+    color: aqua;
+}
+
+.home {
+    background: url('bg1.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.main-section {
+    padding-left: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 185px;
+
+     
+}
+
+.first-title {
+    font-size: 35px;
+    margin-top: 150px;
+    margin-bottom: 12px;
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.second-title {
+    font-size: 30px;
+    margin-bottom: 12px;
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    
+}
+.me {
+margin-left: 60px;
+margin-right: 60px;
+color: black;
+font-family:  sans-serif;
+margin-top: 50px;
+}
+
+.main-section button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 20px;
+    
+
+}
+
+.about-section {
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+    margin: 50px auto;
+}
+
+.btn {
+    background: #000;
+    margin-top: 10px;
+    display: block;
+    width: 30%;
+    margin: 20px auto;
+    padding: 13px 10px;
+    border-radius: 2px;
+    color: #ccc;
+    text-decoration: none;
+}
+
+.about-section img {
+    margin: 20px 0;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+#gallery {
+    margin-top: 50px;
+    padding-left: 40px;
+    float: left;
+}
+
+.gallery-heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.gallery-heading h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.gallery-container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.gallery-item {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 200px;
+    overflow: hidden;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.first-item {
+    height: 410px;
+    float: left;
+}
+
+.last-item {
+    width: 400px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.last-item2 {
+    width: 435px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#pricing {
+    width: 100%;
+    margin: auto;
+    padding-top: 50px;
+    float: left;
+    height: 500px;
+    text-align: center;
+    background: lightblue;
+    margin-top: 50px;
+}
+
+#pricing2 {
+    background: lightgoldenrodyellow;
+    float: left;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.pricing-heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pricing-heading h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.pricing-table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 60%;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.pricing-table th,
+.pricing-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+.pricing-table th {
+    background-color: white;
+    font-weight: bold;
+}
+
+#contact {
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    height: 600px;
+    background-color: rgb(247, 247, 247);
+}
+
+.contact-image {
+    background: url('./pic1.jpg');
+    background-size: cover;
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+
+#contact h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+#contact form {
+    display: inline-block;
+    text-align: left;
+    overflow: hidden;
+
+    width: 40%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+#contact label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}#contact input,
+#contact textarea {
+    display: block;
+    width: 90%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    overflow: hidden;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(114, 114, 114);
+    margin-bottom: 20px;
+    font-size: 16px;
+    outline: none;
+}
+
+#contact textarea {
+    height: 120px;
+}
+
+#contact button {
+    background-color: #1a1b1a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: rgb(25, 26, 25);
+}
+
+
+footer {
+    float: left;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    background: #000;
+}
+
+
+/* #pricing {
+   width: 100%;
+   float: left;
+   margin:50px auto;
+   text-align:center;
+}
+
+.pricing-heading {
+   text-align: center;
+   margin-bottom: 30px;
+   float:left;
+   width:100%;
+
+}
+
+.pricing-heading h2 {
+   font-size: 30px;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+.pricing-table {
+   margin: 0 auto;
+   border-collapse: collapse;
+   float:left;
+   width:60%;
+   background:white;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.pricing-table th,
+.pricing-table td {
+   padding: 10px;
+   text-align: left;
+   border: 1px solid #ccc;
+}
+
+.pricing-table th {
+   background-color: #f2f2f2;
+   font-weight: bold;
+}
+
+.pricing-table td {
+   vertical-align: top;
+}
+
+
+footer {
+   float:left;
+} */
